@@ -1,0 +1,5 @@
+onLoadMission = "OperationScorpion";
+onLoadMissionTime = 1;
+onLoadIntroTime = 1;
+respawn = "BASE";
+disabledAI = 1;
