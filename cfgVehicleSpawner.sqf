@@ -1,91 +1,77 @@
-E_Scripts_vs_debug = 0;
-E_Scripts_vs_aa =
+EE_Scripts_vs_debug = false;
+
+EE_Scripts_vs_vehicle =
 [
-  ["B_APC_Tracked_01_AA_F"] //Level 0
+  ["B_Quadbike_01_F"],
+  ["B_LSV_01_unarmed_F"],
+  ["rhsusf_m998_d_2dr_fulltop","rhsusf_m998_d_2dr_halftop","rhsusf_m998_d_2dr","rhsusf_m998_d_4dr_fulltop","rhsusf_m998_d_4dr_halftop","rhsusf_m998_d_4dr","rhsusf_m998_w_2dr_halftop","rhsusf_m998_w_2dr","rhsusf_m998_w_4dr_fulltop","rhsusf_m998_w_4dr_halftop","rhsusf_m998_w_2dr_fulltop"],
+  ["rhsusf_m1025_d","rhsusf_m1025_w"],
+  ["rhsusf_m1025_d_m2","rhsusf_m1025_d_Mk19","rhsusf_m1025_w_m2","rhsusf_m1025_w_mk19"],
+  ["B_Truck_01_transport_F"],
+  ["B_Truck_01_covered_F"],
+  ["rhsusf_M1078A1P2_d_fmtv_usarmy","rhsusf_M1078A1P2_d_open_fmtv_usarmy","rhsusf_M1083A1P2_d_fmtv_usarmy","rhsusf_M1083A1P2_d_open_fmtv_usarmy","rhsusf_M1083A1P2_B_d_open_fmtv_usarmy","rhsusf_M977A4_usarmy_d","rhsusf_M1078A1P2_wd_fmtv_usarmy","rhsusf_M1078A1P2_wd_open_fmtv_usarmy","rhsusf_M1083A1P2_wd_fmtv_usarmy","rhsusf_M1083A1P2_wd_open_fmtv_usarmy"],
+  ["rhsusf_M1078A1P2_B_d_fmtv_usarmy","rhsusf_M1078A1P2_B_d_open_fmtv_usarmy","rhsusf_M1083A1P2_B_d_fmtv_usarmy","rhsusf_M977A4_BKIT_usarmy_d","rhsusf_M1078A1P2_B_wd_fmtv_usarmy","rhsusf_M1078A1P2_B_wd_open_fmtv_usarmy","rhsusf_M1083A1P2_B_wd_fmtv_usarmy","rhsusf_M1083A1P2_B_wd_open_fmtv_usarmy","rhsusf_M977A4_usarmy_wd"],
+  ["rhsusf_M1078A1P2_B_M2_d_open_fmtv_usarmy","rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy","rhsusf_M1083A1P2_B_M2_d_open_fmtv_usarmy","rhsusf_M977A4_BKIT_M2_usarmy_d","rhsusf_M1078A1P2_B_M2_d_fmtv_usarmy","rhsusf_M1078A1P2_B_M2_wd_fmtv_usarmy","rhsusf_M1078A1P2_B_M2_wd_open_fmtv_usarmy","rhsusf_M1083A1P2_B_M2_wd_fmtv_usarmy","rhsusf_M1083A1P2_B_M2_wd_open_fmtv_usarmy","rhsusf_M977A4_BKIT_M2_usarmy_wd"],
+  ["B_LSV_01_armed_F"],
+  ["B_MRAP_01_F","rhsusf_rg33_d","rhsusf_rg33_wd"],
+  ["B_MRAP_01_hmg_F","rhsusf_rg33_m2_d","rhsusf_rg33_m2_wd"],
+  ["B_MRAP_01_gmg_F"],
+  ["B_UGV_01_F","B_UGV_talon_arm_F"],
+  ["B_UGV_01_rcws_F"],
+  ["B_APC_Wheeled_01_cannon_F","rhsusf_M1117_D","rhsusf_M1117_O","rhsusf_M1117_W"],
+  ["B_APC_Tracked_01_rcws_F","rhsusf_m113d_usarmy","rhsusf_m113d_usarmy_M240","rhsusf_m113d_usarmy_MK19"],
+  ["RHS_M2A2","RHS_M2A2_BUSKI"],
+  ["RHS_M2A3","RHS_M2A3_BUSKI","RHS_M6"],
+  ["RHS_M2A3_BUSKIII_wd","RHS_M2A3_BUSKIII"],
+  ["rhsusf_m1a1aimd_usarmy","rhsusf_m1a2sep1d_usarmy","rhsusf_m1a1aimwd_usarmy","rhsusf_m1a2sep1wd_usarmy"],
+  ["B_MBT_01_TUSK_F"],
+  ["rhsusf_m1a1aim_tuski_d","rhsusf_m1a2sep1tuskid_usarmy","rhsusf_m1a2sep1tuskiwd_usarmy","rhsusf_m1a1aim_tuski_wd"],
+  ["B_MBT_01_cannon_F"],
+  ["rhsusf_m1a2sep1tuskiid_usarmy","rhsusf_m1a2sep1tuskiiwd_usarmy"]
 ];
-E_Scripts_vs_vehicle =
+EE_Scripts_vs_aa =
 [
-  ["B_Quadbike_01_F"], //Level 0
-  ["B_LSV_01_unarmed_F"], //Level 1
-  ["B_Truck_01_transport_F"], //Level 2
-  ["B_Truck_01_covered_F"], //Level 3
-  ["B_LSV_01_armed_F"], //Level 4
-  ["B_MRAP_01_F"], //Level 5
-  ["B_MRAP_01_hmg_F"], //Level 6
-  ["B_MRAP_01_gmg_F"], //Level 7
-  ["B_UGV_01_F","B_UGV_talon_arm_F"], //Level 8
-  ["B_UGV_01_rcws_F"], //Level 9
-  ["B_APC_Wheeled_01_cannon_F"], //Level 10
-  ["B_APC_Tracked_01_rcws_F"], //Level 11
-  ["B_MBT_01_TUSK_F","B_MBT_01_cannon_F"] //Level 12
+  ["B_APC_Tracked_01_AA_F"]
 ];
-E_Scripts_vs_artillary =
+EE_Scripts_vs_plane =
 [
-  ["B_MBT_01_arty_F"], //Level 0
-  ["B_MBT_01_mlrs_F"] //Level 1
+  ["B_UAV_02_F","B_UAV_02_CAS_F"],
+  ["RHS_C130J"],
+  ["B_T_VTOL_01_infantry_F","B_T_VTOL_01_vehicle_F"],
+  ["B_Plane_CAS_01_F"],
+  ["RHS_A10_ATRHS_A10"],
+  ["B_T_VTOL_01_armed_F"],
+  ["JS_JC_FA18E","JS_S_FA18X"],
+  ["JS_JC_FA18F"],
+  ["rhsusf_f22"]
 ];
-E_Scripts_vs_plane =
+EE_Scripts_vs_boat =
 [
-  ["B_UAV_02_F","B_UAV_02_CAS_F"], //Level 0
-  ["B_Plane_CAS_01_F"] //Level 1
+  ["B_Boat_Transport_01_F"],
+  ["B_SDV_01_F"],
+  ["B_Boat_Armed_01_minigun_F"],
+  ["rhsusf_mkvsoc"]
 ];
-E_Scripts_vs_boat =
+EE_Scripts_vs_helicopter =
 [
-  ["B_Boat_Transport_01_F"], //Level 0
-  ["B_SDV_01_F"], //Level 1
-  ["B_Boat_Armed_01_minigun_F"] //Level 2
+  ["B_Heli_Light_01_F"],
+  ["RHS_UH60M_d","RHS_UH1Y_UNARMED_d"],
+  ["B_Heli_Transport_01_F","B_Heli_Transport_01_camo_F"],
+  ["B_Heli_Light_01_armed_F","RHS_MELB_H6M"],
+  ["RHS_CH_47F_light"],
+  ["RHS_MELB_AH6M_H","RHS_MELB_AH6M_L","RHS_MELB_AH6M_M","RHS_MELB_MH6M"],
+  ["B_Heli_Transport_03_unarmed_F","rhsusf_CH53E_USMC_D"],
+  ["RHS_CH_47F_10","B_Heli_Transport_03_F"],
+  ["RHS_UH1Y_d_GS","RHS_UH1Y_d","RHS_UH1Y_d"],
+  ["B_Heli_Attack_01_F"],
+  ["B_T_UAV_03_F"],
+  ["RHS_AH64D_AA","RHS_AH64D_GS","RHS_AH64DGrey","RHS_AH64D_CS","RHS_AH64D"],
+  ["RHS_AH1Z_CS","RHS_AH1Z","RHS_AH1Z_GS"]
 ];
-E_Scripts_vs_helicopter =
+EE_Scripts_vs_artillary =
 [
-  ["B_Heli_Light_01_F"], //Level 0
-  ["B_Heli_Transport_01_F","B_Heli_Transport_01_camo_F"], //Level 1
-  ["B_Heli_Light_01_armed_F"], //Level 2
-  ["B_Heli_Transport_03_unarmed_F"], //Level 3
-  ["B_Heli_Transport_03_F"], //Level 4
-  ["B_Heli_Attack_01_F"] //Level 5
-];
-E_Scripts_vs_respawn_aa =
-[
-  1800 //Level 0
-];
-E_Scripts_vs_respawn_vehicle =
-[
-  120, //Level 0
-  300, //Level 1
-  600, //Level 2
-  600, //Level 3
-  600, //Level 4
-  900, //Level 5
-  1200, //Level 6
-  1200, //Level 7
-  1800, //Level 8
-  1800, //Level 9
-  3600, //Level 10
-  3600, //Level 11
-  5400 //Level 12
-];
-E_Scripts_vs_respawn_artillary =
-[
-  5400, //Level 0
-  7200 //Level 1
-];
-E_Scripts_vs_respawn_plane =
-[
-  7200, //Level 0
-  9000 //Level 1
-];
-E_Scripts_vs_respawn_boat =
-[
-  1200, //Level 0
-  1800, //Level 1
-  3600 //Level 2
-];
-E_Scripts_vs_respawn_helicopter =
-[
-  1200, //Level 0
-  1800, //Level 1
-  2700, //Level 2
-  3600, //Level 3
-  5400, //Level 4
-  7200 //Level 5
+  ["RHS_M119_D"],
+  ["B_MBT_01_arty_F"],
+  ["rhsusf_m109d_usarmy","rhsusf_m109_usarmy"],
+  ["B_MBT_01_mlrs_F"]
 ];
