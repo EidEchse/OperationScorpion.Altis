@@ -1,4 +1,5 @@
 onLoadMission = "OperationScorpion";
+OnLoadName = "OperationScorpion";
 onLoadMissionTime = 1;
 onLoadIntroTime = 1;
 respawn = "BASE";
