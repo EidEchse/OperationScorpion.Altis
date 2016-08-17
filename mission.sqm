@@ -12,7 +12,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=153;
+		nextID=180;
 	};
 	class Camera
 	{
@@ -7156,6 +7156,7 @@ class Mission
 							};
 							id=133;
 							type="ALiVE_sup_multispawn";
+							atlOffset=-9.5367432e-007;
 							class CustomAttributes
 							{
 								class Attribute0
@@ -10918,6 +10919,7 @@ class Mission
 					};
 					id=63;
 					type="B_Slingload_01_Ammo_F";
+					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -10977,6 +10979,7 @@ class Mission
 					};
 					id=66;
 					type="B_Slingload_01_Fuel_F";
+					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11037,6 +11040,7 @@ class Mission
 					};
 					id=67;
 					type="B_Slingload_01_Medevac_F";
+					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11353,6 +11357,7 @@ class Mission
 					};
 					id=76;
 					type="rhsusf_M977A4_REPAIR_BKIT_usarmy_d";
+					atlOffset=-9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11412,6 +11417,7 @@ class Mission
 					};
 					id=74;
 					type="rhsusf_M978A4_BKIT_usarmy_d";
+					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -11449,7 +11455,7 @@ class Mission
 				};
 			};
 			id=135;
-			atlOffset=-0.018539429;
+			atlOffset=-0.018538475;
 		};
 		class Item5
 		{
