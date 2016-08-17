@@ -4,30 +4,30 @@ EE_Scripts_vs_vehicle =
 [
   ["B_Quadbike_01_F"],
   ["B_LSV_01_unarmed_F"],
-  ["rhsusf_m998_d_2dr_fulltop","rhsusf_m998_d_2dr_halftop","rhsusf_m998_d_2dr","rhsusf_m998_d_4dr_fulltop","rhsusf_m998_d_4dr_halftop","rhsusf_m998_d_4dr","rhsusf_m998_w_2dr_halftop","rhsusf_m998_w_2dr","rhsusf_m998_w_4dr_fulltop","rhsusf_m998_w_4dr_halftop","rhsusf_m998_w_2dr_fulltop"],
-  ["rhsusf_m1025_d","rhsusf_m1025_w"],
-  ["rhsusf_m1025_d_m2","rhsusf_m1025_d_Mk19","rhsusf_m1025_w_m2","rhsusf_m1025_w_mk19"],
+  ["rhsusf_m998_d_2dr_fulltop","rhsusf_m998_d_2dr_halftop","rhsusf_m998_d_2dr","rhsusf_m998_d_4dr_fulltop","rhsusf_m998_d_4dr_halftop","rhsusf_m998_d_4dr"],
+  ["rhsusf_m1025_d"],
+  ["rhsusf_m1025_d_m2","rhsusf_m1025_d_Mk19"],
   ["B_Truck_01_transport_F"],
   ["B_Truck_01_covered_F"],
-  ["rhsusf_M1078A1P2_d_fmtv_usarmy","rhsusf_M1078A1P2_d_open_fmtv_usarmy","rhsusf_M1083A1P2_d_fmtv_usarmy","rhsusf_M1083A1P2_d_open_fmtv_usarmy","rhsusf_M1083A1P2_B_d_open_fmtv_usarmy","rhsusf_M977A4_usarmy_d","rhsusf_M1078A1P2_wd_fmtv_usarmy","rhsusf_M1078A1P2_wd_open_fmtv_usarmy","rhsusf_M1083A1P2_wd_fmtv_usarmy","rhsusf_M1083A1P2_wd_open_fmtv_usarmy"],
-  ["rhsusf_M1078A1P2_B_d_fmtv_usarmy","rhsusf_M1078A1P2_B_d_open_fmtv_usarmy","rhsusf_M1083A1P2_B_d_fmtv_usarmy","rhsusf_M977A4_BKIT_usarmy_d","rhsusf_M1078A1P2_B_wd_fmtv_usarmy","rhsusf_M1078A1P2_B_wd_open_fmtv_usarmy","rhsusf_M1083A1P2_B_wd_fmtv_usarmy","rhsusf_M1083A1P2_B_wd_open_fmtv_usarmy","rhsusf_M977A4_usarmy_wd"],
-  ["rhsusf_M1078A1P2_B_M2_d_open_fmtv_usarmy","rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy","rhsusf_M1083A1P2_B_M2_d_open_fmtv_usarmy","rhsusf_M977A4_BKIT_M2_usarmy_d","rhsusf_M1078A1P2_B_M2_d_fmtv_usarmy","rhsusf_M1078A1P2_B_M2_wd_fmtv_usarmy","rhsusf_M1078A1P2_B_M2_wd_open_fmtv_usarmy","rhsusf_M1083A1P2_B_M2_wd_fmtv_usarmy","rhsusf_M1083A1P2_B_M2_wd_open_fmtv_usarmy","rhsusf_M977A4_BKIT_M2_usarmy_wd"],
+  ["rhsusf_M1078A1P2_d_fmtv_usarmy","rhsusf_M1078A1P2_d_open_fmtv_usarmy","rhsusf_M1083A1P2_d_fmtv_usarmy","rhsusf_M1083A1P2_d_open_fmtv_usarmy","rhsusf_M1083A1P2_B_d_open_fmtv_usarmy","rhsusf_M977A4_usarmy_d"],
+  ["rhsusf_M1078A1P2_B_d_fmtv_usarmy","rhsusf_M1078A1P2_B_d_open_fmtv_usarmy","rhsusf_M1083A1P2_B_d_fmtv_usarmy","rhsusf_M977A4_BKIT_usarmy_d"],
+  ["rhsusf_M1078A1P2_B_M2_d_open_fmtv_usarmy","rhsusf_M1083A1P2_B_M2_d_fmtv_usarmy","rhsusf_M1083A1P2_B_M2_d_open_fmtv_usarmy","rhsusf_M977A4_BKIT_M2_usarmy_d","rhsusf_M1078A1P2_B_M2_d_fmtv_usarmy"],
   ["B_LSV_01_armed_F"],
-  ["B_MRAP_01_F","rhsusf_rg33_d","rhsusf_rg33_wd"],
-  ["B_MRAP_01_hmg_F","rhsusf_rg33_m2_d","rhsusf_rg33_m2_wd"],
+  ["B_MRAP_01_F","rhsusf_rg33_d"],
+  ["B_MRAP_01_hmg_F","rhsusf_rg33_m2_d"],
   ["B_MRAP_01_gmg_F"],
   ["B_UGV_01_F","B_UGV_talon_arm_F"],
   ["B_UGV_01_rcws_F"],
-  ["B_APC_Wheeled_01_cannon_F","rhsusf_M1117_D","rhsusf_M1117_O","rhsusf_M1117_W"],
+  ["B_APC_Wheeled_01_cannon_F","rhsusf_M1117_D"],
   ["B_APC_Tracked_01_rcws_F","rhsusf_m113d_usarmy","rhsusf_m113d_usarmy_M240","rhsusf_m113d_usarmy_MK19"],
   ["RHS_M2A2","RHS_M2A2_BUSKI"],
   ["RHS_M2A3","RHS_M2A3_BUSKI","RHS_M6"],
-  ["RHS_M2A3_BUSKIII_wd","RHS_M2A3_BUSKIII"],
-  ["rhsusf_m1a1aimd_usarmy","rhsusf_m1a2sep1d_usarmy","rhsusf_m1a1aimwd_usarmy","rhsusf_m1a2sep1wd_usarmy"],
+  ["RHS_M2A3_BUSKIII"],
+  ["rhsusf_m1a1aimd_usarmy","rhsusf_m1a2sep1d_usarmy"],
   ["B_MBT_01_TUSK_F"],
-  ["rhsusf_m1a1aim_tuski_d","rhsusf_m1a2sep1tuskid_usarmy","rhsusf_m1a2sep1tuskiwd_usarmy","rhsusf_m1a1aim_tuski_wd"],
+  ["rhsusf_m1a1aim_tuski_d","rhsusf_m1a2sep1tuskid_usarmy"],
   ["B_MBT_01_cannon_F"],
-  ["rhsusf_m1a2sep1tuskiid_usarmy","rhsusf_m1a2sep1tuskiiwd_usarmy"]
+  ["rhsusf_m1a2sep1tuskiid_usarmy"]
 ];
 EE_Scripts_vs_aa =
 [
@@ -72,6 +72,6 @@ EE_Scripts_vs_artillary =
 [
   ["RHS_M119_D"],
   ["B_MBT_01_arty_F"],
-  ["rhsusf_m109d_usarmy","rhsusf_m109_usarmy"],
+  ["rhsusf_m109d_usarmy"],
   ["B_MBT_01_mlrs_F"]
 ];
