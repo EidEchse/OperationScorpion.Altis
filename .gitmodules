@@ -1,0 +1,3 @@
+[submodule "OS_EE_Script_Modules.Altis"]
+	path = OS_EE_Script_Modules.Altis
+	url = https://github.com/EidEchse/OS_EE_Script_Modules.Altis.git
