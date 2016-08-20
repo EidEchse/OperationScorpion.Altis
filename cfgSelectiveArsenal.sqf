@@ -1,4 +1,4 @@
-EE_Scripts_sa_debug = 0;
+EE_Scripts_sa_debug = false;
 EE_Scripts_sa_magazines =
   [
     "100Rnd_65x39_caseless_mag",
@@ -137,5 +137,5 @@ EE_Scripts_sa_items =
     "ToolKit",
     "ACE_tourniquet",
     "ACE_UAVBattery",
-    "ACE_wirecutter",
+    "ACE_wirecutter"
   ];
