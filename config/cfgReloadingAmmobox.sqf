@@ -6,7 +6,7 @@ mazazineListA =
   ["10Rnd_762x54_Mag", 10],
   ["150Rnd_762x51_Box", 10],
   ["150Rnd_mas_556x45_Stanag", 10],
-  ["1Rnd_HE_Grenade_shell10", 10"],
+  ["1Rnd_HE_Grenade_shell10", 10],
   ["200Rnd_65x39_cased_Box", 10],
   ["200Rnd_mas_556x45_Stanag", 10],
   ["30Rnd_556x45_Stanag", 50],
