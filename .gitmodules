@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 [submodule "OS_EE_Script_Modules.Altis"]
 	path = OS_EE_Script_Modules.Altis
 	url = https://github.com/EidEchse/OS_EE_Script_Modules.Altis.git
+=======
+[submodule "OS_Arsenal.VR"]
+	path = OS_Arsenal.VR
+	url = https://github.com/EidEchse/OS_Arsenal.VR.git
+>>>>>>> develop
