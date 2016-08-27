@@ -1,4 +1,3 @@
-EE_Scripts_sa_debug = false;
 EE_Scripts_sa_magazines =
   [
     "100Rnd_65x39_caseless_mag",
@@ -69,7 +68,8 @@ EE_Scripts_sa_magazines =
     "Titan_AT",
     "UGL_FlareGreen_F",
     "UGL_FlareRed_F",
-    "UGL_FlareWhite_F"
+    "UGL_FlareWhite_F",
+    "ACE_key_west"
   ];
 EE_Scripts_sa_items =
   [
@@ -137,5 +137,6 @@ EE_Scripts_sa_items =
     "ToolKit",
     "ACE_tourniquet",
     "ACE_UAVBattery",
-    "ACE_wirecutter"
+    "ACE_wirecutter",
+    "ACE_key_west"
   ];

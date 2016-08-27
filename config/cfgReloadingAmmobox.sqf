@@ -1,5 +1,3 @@
-EE_Scripts_ra_debug = false;
-
 mazazineListA =
 [
   ["100Rnd_65x39_caseless_mag", 10],
