@@ -1,5 +1,3 @@
-EE_Scripts_vs_debug = false;
-
 EE_Scripts_vs_vehicle =
 [
   ["B_Quadbike_01_F"],

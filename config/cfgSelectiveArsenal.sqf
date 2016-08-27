@@ -1,4 +1,3 @@
-EE_Scripts_sa_debug = false;
 EE_Scripts_sa_magazines =
   [
     "100Rnd_65x39_caseless_mag",
