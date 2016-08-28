@@ -4,3 +4,6 @@
 [submodule "OS_Arsenal.VR"]
 	path = OS_Arsenal.VR
 	url = https://github.com/EidEchse/OS_Arsenal.VR.git
+[submodule "OS_ACE_Modules"]
+	path = OS_ACE_Modules
+	url = https://github.com/EidEchse/OS_ACE_Modules.git
