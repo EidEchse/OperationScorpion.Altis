@@ -1,5 +1,26 @@
+EE_Scripts_sa_debug = 2;
 EE_Scripts_sa_magazines =
   [
+    "B_IR_Grenade",
+    "ACE_HandFlare_Green",
+    "ACE_HandFlare_Red",
+    "ACE_HandFlare_White",
+    "ACE_HandFlare_Yellow",
+    "SmokeShellBlue",
+    "SmokeShellGreen",
+    "SmokeShellOrange",
+    "SmokeShellPurple",
+    "SmokeShellRed",
+    "SmokeShellYellow",
+    "rhs_mag_m67",
+    "rhsusf_m112_mag",
+    "DemoCharge_Remote_Mag",
+    "rhsusf_m112x4_mag",
+    "ClaymoreDirectionalMine_Remote_Mag",
+    "APERSBoundingMine_Range_Mag",
+    "SLAMDirectionalMine_Wire_Mag",
+    "APERSTripMine_Wire_Mag",
+    "APERSMine_Range_Mag",
     "100Rnd_65x39_caseless_mag",
     "100Rnd_65x39_caseless_mag_Tracer",
     "100Rnd_mas_762x39_mag",
@@ -72,26 +93,6 @@ EE_Scripts_sa_magazines =
   ];
 EE_Scripts_sa_items =
   [
-    "B_IR_Grenade",
-    "ACE_HandFlare_Green",
-    "ACE_HandFlare_Red",
-    "ACE_HandFlare_White",
-    "ACE_HandFlare_Yellow",
-    "SmokeShellBlue",
-    "SmokeShellGreen",
-    "SmokeShellOrange",
-    "SmokeShellPurple",
-    "SmokeShellRed",
-    "SmokeShellYellow",
-    "rhs_mag_m67",
-    "rhsusf_m112_mag",
-    "DemoCharge_Remote_Mag",
-    "rhsusf_m112x4_mag",
-    "ClaymoreDirectionalMine_Remote_Mag",
-    "APERSBoundingMine_Range_Mag",
-    "SLAMDirectionalMine_Wire_Mag",
-    "APERSTripMine_Wire_Mag",
-    "APERSMine_Range_Mag",
     "ACE_RangeTable_82mm",
     "ACE_adenosine",
     "ACE_atropine",
@@ -145,3 +146,7 @@ EE_Scripts_sa_items =
     "ItemCompass",
     "ItemWatch"
   ];
+EE_Scripts_sa_weapons =
+[
+  "arifle_MX_F"
+];

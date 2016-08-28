@@ -1,3 +1,4 @@
+EE_Scripts_es_debug = 2;
 EE_Scripts_es_weapon = [
     [], //Level 0
     [["arifle_Mk20_plain_F"]], //Level 1

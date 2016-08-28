@@ -1,3 +1,4 @@
+EE_Scripts_ra_debug = 2;
 mazazineListA =
 [
   ["100Rnd_65x39_caseless_mag", 10],
@@ -9,15 +10,15 @@ mazazineListA =
   ["200Rnd_mas_556x45_Stanag", 10],
   ["30Rnd_556x45_Stanag", 50],
   ["30Rnd_mas_762x39_mag", 50],
-  ["30Rnd_65x39_caseless_mag", 50]
-];
-itemsListA =
-[
+  ["30Rnd_65x39_caseless_mag", 50],
   ["B_IR_Grenade", 20],
   ["SmokeShellGreen", 10],
   ["SmokeShellRed", 10],
   ["SmokeShellPurple", 10],
-  ["DemoCharge_Remote_Mag", 10],
+  ["DemoCharge_Remote_Mag", 10]
+];
+itemsListA =
+[
   ["ACE_fieldDressing", 20],
   ["ACE_epinephrine", 10],
   ["ACE_morphine", 10],

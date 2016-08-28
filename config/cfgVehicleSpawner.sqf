@@ -1,3 +1,4 @@
+EE_Scripts_vs_debug = 2;
 EE_Scripts_vs_vehicle =
 [
   ["B_Quadbike_01_F"],
