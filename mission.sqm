@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1186;
+		nextID=1262;
 	};
 	class Camera
 	{
-		pos[]={21904.074,170.47229,6482.5024};
-		dir[]={-0.0040344573,-0.8413437,0.5404917};
-		up[]={-0.0062799375,0.54050052,0.84131998};
-		aside[]={0.99997419,-1.1437805e-008,0.007464218};
+		pos[]={21889.809,45.869831,6521.1367};
+		dir[]={-0.17293417,-0.60401094,0.77799511};
+		up[]={-0.131063,0.79697102,0.58962512};
+		aside[]={0.97617859,4.2287866e-008,0.21698688};
 	};
 };
 binarizationWanted=0;
@@ -1206,7 +1206,6 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
 						name="s0";
 						isPlayer=1;
 						isPlayable=1;
@@ -1399,7 +1398,7 @@ class Mission
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
+						name="s1";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1519,25 +1518,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="ace_isSurrendered";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="ace_isHandcuffed";
 							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
 							class Value
@@ -1555,7 +1535,45 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.05;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 				class Item2
@@ -1570,7 +1588,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.40000001;
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
+						name="s2";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1753,7 +1771,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={21874,14.514111,6540.0498};
+						position[]={21874,14.51411,6540.0498};
 					};
 					side="West";
 					flags=5;
@@ -1761,7 +1779,7 @@ class Mission
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
+						name="s3";
 						isPlayable=1;
 						class Inventory
 						{
@@ -1877,29 +1895,9 @@ class Mission
 					};
 					id=4;
 					type="rhsusf_usmc_marpat_d_rifleman";
-					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ace_isSurrendered";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="ace_isHandcuffed";
 							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
@@ -1918,7 +1916,45 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.03;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 				class Item4
@@ -1926,14 +1962,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={21876,14.495449,6540.0498};
+						position[]={21876,14.495448,6540.0498};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
 						skill=0.40000001;
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
+						name="s4";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2049,29 +2085,9 @@ class Mission
 					};
 					id=5;
 					type="rhsusf_usmc_marpat_d_rifleman_m4";
-					atlOffset=9.5367432e-007;
 					class CustomAttributes
 					{
 						class Attribute0
-						{
-							property="ace_isSurrendered";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
 						{
 							property="ace_isHandcuffed";
 							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
@@ -2090,7 +2106,45 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 				class Item5
@@ -2106,7 +2160,7 @@ class Mission
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
+						name="s5";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2226,25 +2280,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="ace_isSurrendered";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="ace_isHandcuffed";
 							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
 							class Value
@@ -2262,7 +2297,45 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 				class Item6
@@ -2277,7 +2350,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.40000001;
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
+						name="s6";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2397,25 +2470,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="ace_isSurrendered";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="ace_isHandcuffed";
 							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
 							class Value
@@ -2433,7 +2487,45 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 				class Item7
@@ -2448,7 +2540,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.40000001;
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
+						name="s7";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2568,25 +2660,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="ace_isSurrendered";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="ace_isHandcuffed";
 							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
 							class Value
@@ -2604,7 +2677,45 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.94999999;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 				class Item8
@@ -2619,7 +2730,7 @@ class Mission
 					class Attributes
 					{
 						skill=0.40000001;
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
+						name="s8";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2739,25 +2850,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="ace_isSurrendered";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="ace_isHandcuffed";
 							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
 							class Value
@@ -2775,7 +2867,45 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.95999998;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 				class Item9
@@ -2791,7 +2921,7 @@ class Mission
 					{
 						skill=0.44999999;
 						rank="CORPORAL";
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
+						name="s9";
 						isPlayable=1;
 						class Inventory
 						{
@@ -2911,25 +3041,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="ace_isSurrendered";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="ace_isHandcuffed";
 							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
 							class Value
@@ -2947,7 +3058,45 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.99000001;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 				class Item10
@@ -2962,7 +3111,6 @@ class Mission
 					class Attributes
 					{
 						skill=0.40000001;
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
 						isPlayable=1;
 						class Inventory
 						{
@@ -3082,25 +3230,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="ace_isSurrendered";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="ace_isHandcuffed";
 							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
 							class Value
@@ -3118,7 +3247,45 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.04;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 				class Item11
@@ -3133,7 +3300,6 @@ class Mission
 					class Attributes
 					{
 						skill=0.40000001;
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
 						isPlayable=1;
 						class Inventory
 						{
@@ -3304,7 +3470,6 @@ class Mission
 					class Attributes
 					{
 						skill=0.40000001;
-						init="null = [this] execVM ""respawn_player.sqf"";  " \n "this addeventhandler [""respawn"",""_this execVM 'test.sqf'""];";
 						isPlayable=1;
 						class Inventory
 						{
@@ -3424,25 +3589,6 @@ class Mission
 					{
 						class Attribute0
 						{
-							property="ace_isSurrendered";
-							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
-							class Value
-							{
-								class data
-								{
-									class type
-									{
-										type[]=
-										{
-											"BOOL"
-										};
-									};
-									value=0;
-								};
-							};
-						};
-						class Attribute1
-						{
 							property="ace_isHandcuffed";
 							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleHandcuffed}";
 							class Value
@@ -3460,7 +3606,45 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.97000003;
+								};
+							};
+						};
+						class Attribute2
+						{
+							property="ace_isSurrendered";
+							expression="if (_value) then {[objNull,[_this],true] call ace_captives_fnc_moduleSurrender}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						nAttributes=3;
 					};
 				};
 			};
@@ -3683,10 +3867,10 @@ class Mission
 											{
 												type[]=
 												{
-													"STRING"
+													"SCALAR"
 												};
 											};
-											value="0.5";
+											value=0;
 										};
 									};
 								};
@@ -3705,7 +3889,7 @@ class Mission
 													"STRING"
 												};
 											};
-											value="1500";
+											value="1000";
 										};
 									};
 								};
@@ -16909,7 +17093,7 @@ class Mission
 									};
 									id=1997;
 									type="equipmentSpawner";
-									atlOffset=0.31478119;
+									atlOffset=0.31478882;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -17199,7 +17383,7 @@ class Mission
 									};
 									id=2001;
 									type="equipmentSpawner";
-									atlOffset=0.00093269348;
+									atlOffset=0.44452858;
 									class CustomAttributes
 									{
 										class Attribute0
@@ -20312,14 +20496,14 @@ class Mission
 											};
 											id=2082;
 											type="I_C_Soldier_Para_4_F";
-											atlOffset=120.31134;
+											atlOffset=120.31133;
 										};
 									};
 									class Attributes
 									{
 									};
 									id=2081;
-									atlOffset=120.31134;
+									atlOffset=120.31133;
 								};
 								class Item23
 								{
@@ -21001,7 +21185,7 @@ class Mission
 											};
 											id=2104;
 											type="I_C_Soldier_Bandit_7_F";
-											atlOffset=0.98870087;
+											atlOffset=0.98877716;
 										};
 										class Item3
 										{
@@ -24731,7 +24915,7 @@ class Mission
 									};
 									id=2206;
 									type="Land_Boat_01_abandoned_blue_F";
-									atlOffset=121.5255;
+									atlOffset=121.52549;
 								};
 								class Item2
 								{
@@ -24827,7 +25011,7 @@ class Mission
 									};
 									id=2212;
 									type="Land_Boat_02_abandoned_F";
-									atlOffset=123.77008;
+									atlOffset=123.77009;
 								};
 								class Item8
 								{
@@ -24875,7 +25059,7 @@ class Mission
 									};
 									id=2215;
 									type="Land_Boat_01_abandoned_red_F";
-									atlOffset=123.96028;
+									atlOffset=123.96027;
 								};
 								class Item11
 								{
@@ -24907,7 +25091,7 @@ class Mission
 									};
 									id=2217;
 									type="Land_Boat_01_abandoned_red_F";
-									atlOffset=127.75812;
+									atlOffset=127.75811;
 								};
 								class Item13
 								{
@@ -25187,7 +25371,7 @@ class Mission
 									};
 									id=2234;
 									type="Land_Cargo20_grey_F";
-									atlOffset=128.52658;
+									atlOffset=128.52664;
 								};
 								class Item30
 								{
@@ -25385,7 +25569,7 @@ class Mission
 									};
 									id=2246;
 									type="Land_cmp_Shed_F";
-									atlOffset=126.19657;
+									atlOffset=126.19661;
 								};
 								class Item42
 								{
@@ -25400,7 +25584,7 @@ class Mission
 									};
 									id=2247;
 									type="Land_CrabCages_F";
-									atlOffset=126.36182;
+									atlOffset=126.36181;
 								};
 								class Item43
 								{
@@ -25416,7 +25600,7 @@ class Mission
 									};
 									id=2248;
 									type="Land_CratesPlastic_F";
-									atlOffset=122.65028;
+									atlOffset=122.65026;
 								};
 								class Item44
 								{
@@ -25499,7 +25683,7 @@ class Mission
 									};
 									id=2253;
 									type="Land_Scrap_MRAP_01_F";
-									atlOffset=4.5776367e-005;
+									atlOffset=0.00011909008;
 								};
 								class Item49
 								{
@@ -25915,7 +26099,7 @@ class Mission
 									};
 									id=2278;
 									type="Land_Pier_Box_F";
-									atlOffset=126.9938;
+									atlOffset=126.99384;
 								};
 								class Item74
 								{
@@ -26547,7 +26731,7 @@ class Mission
 									};
 									id=2316;
 									type="Land_cargo_addon02_V1_F";
-									atlOffset=0.71760201;
+									atlOffset=0.71755564;
 								};
 								class Item112
 								{
@@ -26785,7 +26969,7 @@ class Mission
 									};
 									id=2330;
 									type="Land_cargo_house_slum_F";
-									atlOffset=2.4954071;
+									atlOffset=2.4953461;
 								};
 								class Item126
 								{
@@ -27340,7 +27524,7 @@ class Mission
 									};
 									id=2363;
 									type="Land_WaterBarrel_F";
-									atlOffset=0.47321749;
+									atlOffset=0.47329074;
 								};
 								class Item159
 								{
@@ -27357,7 +27541,7 @@ class Mission
 									};
 									id=2364;
 									type="WaterPump_01_sand_F";
-									atlOffset=0.0082139969;
+									atlOffset=0.0082058907;
 								};
 								class Item160
 								{
@@ -27643,7 +27827,7 @@ class Mission
 									};
 									id=2381;
 									type="Land_WoodenCrate_01_stack_x5_F";
-									atlOffset=4.5776367e-005;
+									atlOffset=-4.2915344e-006;
 								};
 								class Item177
 								{
@@ -28299,7 +28483,7 @@ class Mission
 									};
 									id=2406;
 									type="Land_Cargo20_light_green_F";
-									atlOffset=144.41115;
+									atlOffset=144.41098;
 								};
 								class Item202
 								{
@@ -29879,7 +30063,7 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={17068,102.91624,11302.049};
+								position[]={17068,102.91623,11302.049};
 								angles[]={0,3.9162388,0};
 							};
 							side="Independent";
@@ -29889,7 +30073,7 @@ class Mission
 							};
 							id=2478;
 							type="I_C_Soldier_Para_6_F";
-							atlOffset=70.717567;
+							atlOffset=70.717552;
 						};
 						class Item2
 						{
@@ -30220,7 +30404,7 @@ class Mission
 							};
 							id=2494;
 							type="I_C_Soldier_Bandit_3_F";
-							atlOffset=2.2888184e-005;
+							atlOffset=-1.9073486e-006;
 						};
 						class Item2
 						{
@@ -30276,7 +30460,7 @@ class Mission
 							};
 							id=2497;
 							type="I_C_Soldier_Bandit_6_F";
-							atlOffset=0.00028419495;
+							atlOffset=0.00052261353;
 						};
 						class Item5
 						{
@@ -30294,7 +30478,7 @@ class Mission
 							};
 							id=2498;
 							type="I_C_Soldier_Bandit_2_F";
-							atlOffset=-3.2424927e-005;
+							atlOffset=-0.00010871887;
 						};
 						class Item6
 						{
@@ -31222,7 +31406,7 @@ class Mission
 							};
 							id=2550;
 							type="I_C_Soldier_Bandit_6_F";
-							atlOffset=4.5776367e-005;
+							atlOffset=4.4822693e-005;
 						};
 						class Item1
 						{
@@ -31274,14 +31458,14 @@ class Mission
 							};
 							id=2553;
 							type="I_C_Soldier_Bandit_8_F";
-							atlOffset=4.5776367e-005;
+							atlOffset=4.4822693e-005;
 						};
 					};
 					class Attributes
 					{
 					};
 					id=2549;
-					atlOffset=4.5776367e-005;
+					atlOffset=4.4822693e-005;
 				};
 				class Item40
 				{
@@ -33179,7 +33363,7 @@ class Mission
 					};
 					id=2646;
 					type="Land_HBarrier_Big_F";
-					atlOffset=4.5776367e-005;
+					atlOffset=-3.1113625e-005;
 				};
 				class Item98
 				{
@@ -37814,7 +37998,7 @@ class Mission
 							};
 							id=2960;
 							type="Land_BakedBeans_F";
-							atlOffset=-0.0032310486;
+							atlOffset=-0.0029067993;
 						};
 						class Item155
 						{
@@ -37904,7 +38088,7 @@ class Mission
 							};
 							id=2965;
 							type="Land_Camping_Light_F";
-							atlOffset=-0.0075263977;
+							atlOffset=-0.0072021484;
 						};
 						class Item160
 						{
@@ -38314,7 +38498,7 @@ class Mission
 							};
 							id=2988;
 							type="Land_BagFence_Round_F";
-							atlOffset=4.5776367e-005;
+							atlOffset=0.00033950806;
 						};
 						class Item183
 						{
@@ -40093,7 +40277,7 @@ class Mission
 					};
 					id=3106;
 					type="Land_Rack_F";
-					atlOffset=0.01550293;
+					atlOffset=0.013839722;
 				};
 				class Item220
 				{
@@ -40110,7 +40294,7 @@ class Mission
 					};
 					id=3107;
 					type="Land_Rack_F";
-					atlOffset=0.0086784363;
+					atlOffset=0.0098228455;
 				};
 				class Item221
 				{
