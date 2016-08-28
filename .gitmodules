@@ -7,3 +7,6 @@
 [submodule "OS_ACE_Modules"]
 	path = OS_ACE_Modules
 	url = https://github.com/EidEchse/OS_ACE_Modules.git
+[submodule "OS_ALiVE_Modules.Altis"]
+	path = OS_ALiVE_Modules.Altis
+	url = https://github.com/EidEchse/OS_ALiVE_Modules.Altis.git
