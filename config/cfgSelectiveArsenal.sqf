@@ -68,8 +68,7 @@ EE_Scripts_sa_magazines =
     "Titan_AT",
     "UGL_FlareGreen_F",
     "UGL_FlareRed_F",
-    "UGL_FlareWhite_F",
-    "ACE_key_west"
+    "UGL_FlareWhite_F"
   ];
 EE_Scripts_sa_items =
   [
@@ -138,5 +137,11 @@ EE_Scripts_sa_items =
     "ACE_tourniquet",
     "ACE_UAVBattery",
     "ACE_wirecutter",
-    "ACE_key_west"
+    "ACE_key_west",
+    "MC_Camo",
+    "V_TacVest_khk",
+    "MC_Helmet2",
+    "ItemMap",
+    "ItemCompass",
+    "ItemWatch"
   ];
