@@ -1,5 +1,5 @@
 EE_Scripts_ra_debug = 2;
-mazazineListA =
+magazineListA =
 [
   ["100Rnd_65x39_caseless_mag", 10],
   ["10Rnd_762x54_Mag", 10],
