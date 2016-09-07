@@ -1,10 +1,10 @@
-EE_Scripts_es_debug = 2;
+
 EE_Scripts_es_weapon = [
     [], //Level 0
     [["arifle_Mk20_plain_F"]], //Level 1
     [], //Level 2
     [["LMG_mas_m72_F"]], //Level 3
-    [["srifle_mas_sr25_v"]], //Level 4
+    [], //Level 4
     [["arifle_MX_F","arifle_MX_Black_F"],["arifle_MXC_F","arifle_MXC_Black_F"]], //Level 5
     [["srifle_DMR_01_F"]], //Level 6
     [["hgun_P07_F"],["mas_launch_RPG7_F"]], //Level 7
@@ -46,11 +46,10 @@ EE_Scripts_es_weapon = [
     [["srifle_DMR_03_khaki_F","arifle_mas_mk16_gl"]], //Level 43
     [["LMG_mas_m240_F"],["hgun_Pistol_heavy_02_F"],["rhs_weap_fim92"]], //Level 44
     [["FHQ_arifle_ACR_blk","FHQ_arifle_ACR_snw","FHQ_arifle_ACR_tan","FHQ_arifle_ACR_wdl"]], //Level 45
-    [["srifle_DMR_03_spotter_F","srifle_DMR_03_tan_F","srifle_DMR_03_woodland_F","srifle_DMR_03_khaki_F"]], //Level 46
-    [["rhs_weap_m16a4_carryhandle_M203"],["rhs_weap_fgm148"]], //Level 47
-    [["arifle_mas_akm"],["arifle_mas_akm_gl"]], //Level 48
-    [["arifle_mas_m4vlt"],["MMG_02_black_F","MMG_02_camo_F","MMG_02_sand_F"]], //Level 49
-    [["srifle_mas_mk17"],["arifle_mas_mk17_gl"],["srifle_GM6_F","srifle_GM6_camo_F"],["hgun_mas_mp7p_F"]] //Level 50
+    [["srifle_DMR_03_spotter_F","srifle_DMR_03_tan_F","srifle_DMR_03_woodland_F","srifle_DMR_03_khaki_F"],["srifle_mas_mk17"]], //Level 46
+    [["rhs_weap_m16a4_carryhandle_M203"],["rhs_weap_fgm148"],["srifle_GM6_F","srifle_GM6_camo_F"]], //Level 47
+    [["arifle_mas_akm"],["arifle_mas_akm_gl"],["hgun_mas_mp7p_F"]], //Level 48
+    [["arifle_mas_m4vlt"],["MMG_02_black_F","MMG_02_camo_F","MMG_02_sand_F"],["arifle_mas_mk17_gl"]] //Level 49
   ];
 EE_Scripts_es_backpack =
   [
@@ -156,7 +155,6 @@ EE_Scripts_es_item =
   	[["G_Bandanna_aviator"]], //Level 45
   	[["rhsusf_iotv_ocp_Teamleader","rhsusf_iotv_ocp_Teamleader"]], //Level 46
   	[["FHQ_optic_LeupoldERT","FHQ_optic_LeupoldERT_tan"]], //Level 47
-  	[], //Level 48
-  	[["V_PlateCarrierIAGL_oli","V_PlateCarrierIAGL_dgtl"]], //Level 49
-  	[["muzzle_snds_338_black","muzzle_snds_338_sand"]] //Level 50
+  	[["V_PlateCarrierIAGL_oli","V_PlateCarrierIAGL_dgtl"]], //Level 48
+  	[["muzzle_snds_338_black","muzzle_snds_338_sand"]] //Level 49
   ];

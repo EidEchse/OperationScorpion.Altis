@@ -1,4 +1,3 @@
-EE_Scripts_sa_debug = 2;
 EE_Scripts_sa_magazines =
   [
     "B_IR_Grenade",
