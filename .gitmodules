@@ -10,3 +10,6 @@
 [submodule "OS_ALiVE_Modules.Altis"]
 	path = OS_ALiVE_Modules.Altis
 	url = https://github.com/EidEchse/OS_ALiVE_Modules.Altis.git
+[submodule "OS_Scripts"]
+	path = OS_Scripts
+	url = https://github.com/EidEchse/OS_Scripts.git
