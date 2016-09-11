@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=3558;
+		nextID=3648;
 	};
 	class Camera
 	{
@@ -974,7 +974,7 @@ class Mission
 		year=2035;
 		month=6;
 		day=24;
-		hour=8;
+		hour=4;
 		minute=0;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
@@ -7330,7 +7330,7 @@ class Mission
 									};
 									id=8285;
 									type="Land_Rack_F";
-									atlOffset=0.0012168884;
+									atlOffset=0.0029373169;
 								};
 								class Item10
 								{
@@ -7347,7 +7347,7 @@ class Mission
 									};
 									id=8286;
 									type="Land_Rack_F";
-									atlOffset=0.0015563965;
+									atlOffset=0.0027008057;
 								};
 								class Item11
 								{
@@ -7416,7 +7416,7 @@ class Mission
 								};
 							};
 							id=8275;
-							atlOffset=0.61449432;
+							atlOffset=0.61439896;
 						};
 						class Item8
 						{
@@ -8817,7 +8817,7 @@ class Mission
 						};
 					};
 					id=8168;
-					atlOffset=12.531664;
+					atlOffset=12.531679;
 				};
 				class Item1
 				{
@@ -35492,7 +35492,7 @@ class Mission
 															};
 															id=9291;
 															type="ALiVE_mil_placement";
-															atlOffset=0.11597443;
+															atlOffset=0.11598206;
 															class CustomAttributes
 															{
 																class Attribute0
@@ -35899,11 +35899,11 @@ class Mission
 														};
 													};
 													id=9289;
-													atlOffset=-57.762039;
+													atlOffset=-57.762032;
 												};
 											};
 											id=9283;
-											atlOffset=31.419014;
+											atlOffset=31.419018;
 										};
 										class Item1
 										{
